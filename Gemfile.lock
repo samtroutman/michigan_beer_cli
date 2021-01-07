@@ -2,8 +2,6 @@ PATH
   remote: .
   specs:
     michigan_beer (0.1.0)
-      nokogiri
-      open-uri
 
 GEM
   remote: https://rubygems.org/
@@ -11,6 +9,10 @@ GEM
     ast (2.4.1)
     coderay (1.1.3)
     method_source (1.0.0)
+    mini_portile2 (2.5.0)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     open-uri (0.1.0)
@@ -40,10 +42,13 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
 
 DEPENDENCIES
   michigan_beer!
+  nokogiri
+  open-uri
   pry
   rake (~> 13.0)
   rubocop (~> 0.80)
