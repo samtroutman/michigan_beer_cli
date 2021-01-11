@@ -16,8 +16,8 @@ class MichiganBeer::Beer
         @@all 
     end
 
-    def self.find(id)
-        self.all[id-1]
+    def self.find(number)
+        self.all[number-1]
     end
 
 
