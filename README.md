@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use the command line interface to navigate beers and beer details with the number of the beer you are looking for, "list" to list the beers again, and "exit" to quite. 
+Use the command line interface to navigate beers and beer details with the number of the beer you are looking for, "list" to list the beers again, and "exit" to quit. 
 
 ## Development
 
