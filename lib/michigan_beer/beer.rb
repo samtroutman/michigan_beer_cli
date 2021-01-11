@@ -1,20 +1,25 @@
 class MichiganBeer::Beer
 
-    attr_accessor :name, :number, :abv, :type, :brewery, :scraper
+    attr_accessor :name, :rank, :abv, :style, :brewery, :rating
 
-    @@all = []
+    @@all=[]
 
-    def initialize(name = "", number = 1, abv = "", type = "", brewery = "")
-        @name = name
-        @number = number
-        @abv = abv
-        @type = type
-        @brewery = brewery
+    def initialize(beer_hash)
+        beer_hash.each {|key, value| self.send(("#{key}="), value)}
         @@all << self
-    end
+      end
 
     def self.all
-        @@all
-    end    
+        if @@all.count==0
+            Scraper.scrape_page.each {|hash| self.new(hash)}
+        end
+        @@all 
+    end
+
+    def self.find(id)
+        self.all[id-1]
+    end
+
+
 
 end

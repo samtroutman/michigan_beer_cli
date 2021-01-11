@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["troutm16@gmail.com"]
 
   spec.summary       = "A gem showing the top Michigan Beers on Beer Advocate."
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/samtroutman/michigan_beer_cli"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -28,8 +28,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # spec.add_dependency "nokogiri"
-  # spec.add_dependency "open-uri"
+
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"

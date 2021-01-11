@@ -5,4 +5,4 @@ require "michigan_beer"
 require_relative "../lib/michigan_beer"
 
 # binding.pry
-MichiganBeer::CLI.new.call
+MichiganBeer::CLI.new.start
