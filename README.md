@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/samtroutman/michigan_beer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Code of Conduct (https://github.com/[USERNAME]/michigan_beer/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/samtroutman/michigan_beer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Code of Conduct (https://github.com/samtroutman/michigan_beer/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
